@@ -1,0 +1,76 @@
+# List of SDK dependencies of this app, this information is also included in an encrypted form in the APK.
+# For more information visit: https://d.android.com/r/tools/dependency-metadata
+
+library {
+  maven_library {
+    artifactId: "arcore_client"
+  }
+  digests {
+    sha256: "k_\177\004\001\3367\323\252K\347~\350\372\270\254\354\b\231\035\363\205\231\006\355\352\376\364\215!\273\016"
+  }
+}
+library {
+  maven_library {
+    artifactId: "IngameDebugConsole"
+  }
+  digests {
+    sha256: "\272\037|1\270\260ae7\226\'\343\"\267G\315\335w\261D\214\214\323\037\336{\212\321\343\223+}"
+  }
+}
+library {
+  maven_library {
+    artifactId: "UnityARCore"
+  }
+  digests {
+    sha256: "$i E\004%\354\344\217\314\335\026\342k\005\235\374\205j\265\335\005\340\346~&\261R5\217\300e"
+  }
+}
+library {
+  maven_library {
+    artifactId: "openxr_loader"
+  }
+  digests {
+    sha256: "\211\343\274\310w\330{,;\270\312\370[\032\372\303\213\270qb\375F\246\256|g}\177\344|\367\243"
+  }
+}
+library {
+  maven_library {
+    artifactId: "ARPresto"
+  }
+  digests {
+    sha256: "s\a3\237#\332h\341c\225\236@\227\376\364 \351\357\350\211\026}f@.\370S\002\327\216\302{"
+  }
+}
+library {
+  maven_library {
+    artifactId: "unityandroidpermissions"
+  }
+  digests {
+    sha256: "\304\275\200/\267\017\253\2569\233,4\201\275\362\370\021i,\2045\246\3123t\313N\032\270\017h\272"
+  }
+}
+library {
+  digests {
+    sha256: "\t\2439\331s\353\310\f\212\211\'\341{\020\302\367Ik\030\312 |\323*0\375*!~\215x#"
+  }
+}
+module_dependencies {
+  module_name: "base"
+  dependency_index: 0
+  dependency_index: 1
+  dependency_index: 2
+  dependency_index: 3
+  dependency_index: 4
+  dependency_index: 5
+  dependency_index: 6
+}
+repositories {
+  maven_repo {
+    url: "https://dl.google.com/dl/android/maven2/"
+  }
+}
+repositories {
+  maven_repo {
+    url: "https://repo.maven.apache.org/maven2/"
+  }
+}

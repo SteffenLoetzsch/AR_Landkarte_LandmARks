@@ -1,0 +1,254 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.DefaultCompany.LandmARksDieARLandkarte"
+4    android:installLocation="preferExternal"
+5    android:versionCode="1"
+6    android:versionName="0.1" >
+7
+8    <uses-sdk
+9        android:minSdkVersion="25"
+9-->C:\Users\Mavel\AR Project V6\Library\Bee\Android\Prj\IL2CPP\Gradle\launcher\src\main\AndroidManifest.xml
+10        android:targetSdkVersion="32" />
+10-->C:\Users\Mavel\AR Project V6\Library\Bee\Android\Prj\IL2CPP\Gradle\launcher\src\main\AndroidManifest.xml
+11
+12    <supports-screens
+12-->C:\Users\Mavel\AR Project V6\Library\Bee\Android\Prj\IL2CPP\Gradle\launcher\src\main\AndroidManifest.xml:4:3-163
+13        android:anyDensity="true"
+13-->C:\Users\Mavel\AR Project V6\Library\Bee\Android\Prj\IL2CPP\Gradle\launcher\src\main\AndroidManifest.xml:4:135-160
+14        android:largeScreens="true"
+14-->C:\Users\Mavel\AR Project V6\Library\Bee\Android\Prj\IL2CPP\Gradle\launcher\src\main\AndroidManifest.xml:4:78-105
+15        android:normalScreens="true"
+15-->C:\Users\Mavel\AR Project V6\Library\Bee\Android\Prj\IL2CPP\Gradle\launcher\src\main\AndroidManifest.xml:4:49-77
+16        android:smallScreens="true"
+16-->C:\Users\Mavel\AR Project V6\Library\Bee\Android\Prj\IL2CPP\Gradle\launcher\src\main\AndroidManifest.xml:4:21-48
+17        android:xlargeScreens="true" />
+17-->C:\Users\Mavel\AR Project V6\Library\Bee\Android\Prj\IL2CPP\Gradle\launcher\src\main\AndroidManifest.xml:4:106-134
+18
+19    <uses-permission android:name="android.permission.INTERNET" />
+19-->[:unityLibrary] C:\Users\Mavel\AR Project V6\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\build\intermediates\merged_manifest\release\AndroidManifest.xml:10:5-67
+19-->[:unityLibrary] C:\Users\Mavel\AR Project V6\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\build\intermediates\merged_manifest\release\AndroidManifest.xml:10:22-64
+20
+21    <uses-feature android:glEsVersion="0x00030000" />
+21-->[:unityLibrary] C:\Users\Mavel\AR Project V6\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\build\intermediates\merged_manifest\release\AndroidManifest.xml:12:5-54
+21-->[:unityLibrary] C:\Users\Mavel\AR Project V6\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\build\intermediates\merged_manifest\release\AndroidManifest.xml:12:19-51
+22    <uses-feature
+22-->[:unityLibrary] C:\Users\Mavel\AR Project V6\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\build\intermediates\merged_manifest\release\AndroidManifest.xml:13:5-15:36
+23        android:name="android.hardware.touchscreen"
+23-->[:unityLibrary] C:\Users\Mavel\AR Project V6\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\build\intermediates\merged_manifest\release\AndroidManifest.xml:14:9-52
+24        android:required="false" />
+24-->[:unityLibrary] C:\Users\Mavel\AR Project V6\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\build\intermediates\merged_manifest\release\AndroidManifest.xml:15:9-33
+25    <uses-feature
+25-->[:unityLibrary] C:\Users\Mavel\AR Project V6\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\build\intermediates\merged_manifest\release\AndroidManifest.xml:16:5-18:36
+26        android:name="android.hardware.touchscreen.multitouch"
+26-->[:unityLibrary] C:\Users\Mavel\AR Project V6\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\build\intermediates\merged_manifest\release\AndroidManifest.xml:17:9-63
+27        android:required="false" />
+27-->[:unityLibrary] C:\Users\Mavel\AR Project V6\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\build\intermediates\merged_manifest\release\AndroidManifest.xml:18:9-33
+28    <uses-feature
+28-->[:unityLibrary] C:\Users\Mavel\AR Project V6\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\build\intermediates\merged_manifest\release\AndroidManifest.xml:19:5-21:36
+29        android:name="android.hardware.touchscreen.multitouch.distinct"
+29-->[:unityLibrary] C:\Users\Mavel\AR Project V6\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\build\intermediates\merged_manifest\release\AndroidManifest.xml:20:9-72
+30        android:required="false" />
+30-->[:unityLibrary] C:\Users\Mavel\AR Project V6\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\build\intermediates\merged_manifest\release\AndroidManifest.xml:21:9-33
+31
+32    <uses-permission android:name="android.permission.CAMERA" />
+32-->[:unityLibrary] C:\Users\Mavel\AR Project V6\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\build\intermediates\merged_manifest\release\AndroidManifest.xml:23:5-65
+32-->[:unityLibrary] C:\Users\Mavel\AR Project V6\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\build\intermediates\merged_manifest\release\AndroidManifest.xml:23:22-62
+33
+34    <uses-feature
+34-->[:unityLibrary] C:\Users\Mavel\AR Project V6\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\build\intermediates\merged_manifest\release\AndroidManifest.xml:25:5-27:35
+35        android:name="android.hardware.camera.ar"
+35-->[:unityLibrary] C:\Users\Mavel\AR Project V6\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\build\intermediates\merged_manifest\release\AndroidManifest.xml:26:9-50
+36        android:required="true" />
+36-->[:unityLibrary] C:\Users\Mavel\AR Project V6\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\build\intermediates\merged_manifest\release\AndroidManifest.xml:27:9-32
+37    <uses-feature
+37-->[:unityLibrary] C:\Users\Mavel\AR Project V6\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\build\intermediates\merged_manifest\release\AndroidManifest.xml:28:5-30:35
+38        android:name="com.google.ar.core.depth"
+38-->[:unityLibrary] C:\Users\Mavel\AR Project V6\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\build\intermediates\merged_manifest\release\AndroidManifest.xml:29:9-48
+39        android:required="true" />
+39-->[:unityLibrary] C:\Users\Mavel\AR Project V6\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\build\intermediates\merged_manifest\release\AndroidManifest.xml:30:9-32
+40
+41    <queries>
+41-->[:arcore_client:] C:\Users\Mavel\.gradle\caches\transforms-3\ece6358c3c3b544f3d6f3cc51ffa918c\transformed\arcore_client\AndroidManifest.xml:29:5-31:15
+42        <package android:name="com.google.ar.core" />
+42-->[:arcore_client:] C:\Users\Mavel\.gradle\caches\transforms-3\ece6358c3c3b544f3d6f3cc51ffa918c\transformed\arcore_client\AndroidManifest.xml:30:9-54
+42-->[:arcore_client:] C:\Users\Mavel\.gradle\caches\transforms-3\ece6358c3c3b544f3d6f3cc51ffa918c\transformed\arcore_client\AndroidManifest.xml:30:18-51
+43        <!-- to talk to the broker -->
+44        <provider android:authorities="org.khronos.openxr.runtime_broker;org.khronos.openxr.system_runtime_broker" /> <!-- so client-side code of runtime/layers can talk to their service sides -->
+44-->[:openxr_loader:] C:\Users\Mavel\.gradle\caches\transforms-3\25740fe9a62c20359488a047793fe478\transformed\openxr_loader\AndroidManifest.xml:15:5-114
+44-->[:openxr_loader:] C:\Users\Mavel\.gradle\caches\transforms-3\25740fe9a62c20359488a047793fe478\transformed\openxr_loader\AndroidManifest.xml:15:15-111
+45        <intent>
+45-->[:openxr_loader:] C:\Users\Mavel\.gradle\caches\transforms-3\25740fe9a62c20359488a047793fe478\transformed\openxr_loader\AndroidManifest.xml:18:5-20:14
+46            <action android:name="org.khronos.openxr.OpenXRRuntimeService" />
+46-->[:openxr_loader:] C:\Users\Mavel\.gradle\caches\transforms-3\25740fe9a62c20359488a047793fe478\transformed\openxr_loader\AndroidManifest.xml:19:7-72
+46-->[:openxr_loader:] C:\Users\Mavel\.gradle\caches\transforms-3\25740fe9a62c20359488a047793fe478\transformed\openxr_loader\AndroidManifest.xml:19:15-69
+47        </intent>
+48        <intent>
+48-->[:openxr_loader:] C:\Users\Mavel\.gradle\caches\transforms-3\25740fe9a62c20359488a047793fe478\transformed\openxr_loader\AndroidManifest.xml:21:5-23:14
+49            <action android:name="org.khronos.openxr.OpenXRApiLayerService" />
+49-->[:openxr_loader:] C:\Users\Mavel\.gradle\caches\transforms-3\25740fe9a62c20359488a047793fe478\transformed\openxr_loader\AndroidManifest.xml:22:7-73
+49-->[:openxr_loader:] C:\Users\Mavel\.gradle\caches\transforms-3\25740fe9a62c20359488a047793fe478\transformed\openxr_loader\AndroidManifest.xml:22:15-70
+50        </intent>
+51    </queries>
+52    <!--
+53  Copyright (c) 2020-2023, The Khronos Group Inc.
+54  SPDX-License-Identifier: Apache-2.0 OR MIT
+55    -->
+56    <uses-permission android:name="org.khronos.openxr.permission.OPENXR" />
+56-->[:openxr_loader:] C:\Users\Mavel\.gradle\caches\transforms-3\25740fe9a62c20359488a047793fe478\transformed\openxr_loader\AndroidManifest.xml:10:3-74
+56-->[:openxr_loader:] C:\Users\Mavel\.gradle\caches\transforms-3\25740fe9a62c20359488a047793fe478\transformed\openxr_loader\AndroidManifest.xml:10:20-71
+57    <uses-permission android:name="org.khronos.openxr.permission.OPENXR_SYSTEM" />
+57-->[:openxr_loader:] C:\Users\Mavel\.gradle\caches\transforms-3\25740fe9a62c20359488a047793fe478\transformed\openxr_loader\AndroidManifest.xml:11:3-81
+57-->[:openxr_loader:] C:\Users\Mavel\.gradle\caches\transforms-3\25740fe9a62c20359488a047793fe478\transformed\openxr_loader\AndroidManifest.xml:11:20-78
+58    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+59    <uses-permission android:name="android.permission.READ_PHONE_STATE" />
+60    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+61
+62    <uses-feature
+62-->[:unityLibrary:xrmanifest.androidlib] C:\Users\Mavel\AR Project V6\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\xrmanifest.androidlib\build\intermediates\merged_manifest\release\AndroidManifest.xml:9:5-12:31
+63        android:name="android.hardware.vr.headtracking"
+63-->[:unityLibrary:xrmanifest.androidlib] C:\Users\Mavel\AR Project V6\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\xrmanifest.androidlib\build\intermediates\merged_manifest\release\AndroidManifest.xml:10:9-56
+64        android:required="true"
+64-->[:unityLibrary:xrmanifest.androidlib] C:\Users\Mavel\AR Project V6\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\xrmanifest.androidlib\build\intermediates\merged_manifest\release\AndroidManifest.xml:11:9-32
+65        android:version="1" />
+65-->[:unityLibrary:xrmanifest.androidlib] C:\Users\Mavel\AR Project V6\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\xrmanifest.androidlib\build\intermediates\merged_manifest\release\AndroidManifest.xml:12:9-28
+66
+67    <application
+67-->C:\Users\Mavel\AR Project V6\Library\Bee\Android\Prj\IL2CPP\Gradle\launcher\src\main\AndroidManifest.xml:3:3-83
+68        android:extractNativeLibs="true"
+68-->[:unityLibrary] C:\Users\Mavel\AR Project V6\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\build\intermediates\merged_manifest\release\AndroidManifest.xml:32:18-50
+69        android:icon="@mipmap/app_icon"
+69-->C:\Users\Mavel\AR Project V6\Library\Bee\Android\Prj\IL2CPP\Gradle\launcher\src\main\AndroidManifest.xml:3:49-80
+70        android:label="@string/app_name" >
+70-->C:\Users\Mavel\AR Project V6\Library\Bee\Android\Prj\IL2CPP\Gradle\launcher\src\main\AndroidManifest.xml:3:16-48
+71        <meta-data
+71-->[:unityLibrary] C:\Users\Mavel\AR Project V6\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\build\intermediates\merged_manifest\release\AndroidManifest.xml:33:9-35:33
+72            android:name="unity.splash-mode"
+72-->[:unityLibrary] C:\Users\Mavel\AR Project V6\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\build\intermediates\merged_manifest\release\AndroidManifest.xml:34:13-45
+73            android:value="0" />
+73-->[:unityLibrary] C:\Users\Mavel\AR Project V6\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\build\intermediates\merged_manifest\release\AndroidManifest.xml:35:13-30
+74        <meta-data
+74-->[:unityLibrary] C:\Users\Mavel\AR Project V6\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\build\intermediates\merged_manifest\release\AndroidManifest.xml:36:9-38:36
+75            android:name="unity.splash-enable"
+75-->[:unityLibrary] C:\Users\Mavel\AR Project V6\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\build\intermediates\merged_manifest\release\AndroidManifest.xml:37:13-47
+76            android:value="True" />
+76-->[:unityLibrary] C:\Users\Mavel\AR Project V6\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\build\intermediates\merged_manifest\release\AndroidManifest.xml:38:13-33
+77        <meta-data
+77-->[:unityLibrary] C:\Users\Mavel\AR Project V6\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\build\intermediates\merged_manifest\release\AndroidManifest.xml:39:9-41:36
+78            android:name="unity.launch-fullscreen"
+78-->[:unityLibrary] C:\Users\Mavel\AR Project V6\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\build\intermediates\merged_manifest\release\AndroidManifest.xml:40:13-51
+79            android:value="True" />
+79-->[:unityLibrary] C:\Users\Mavel\AR Project V6\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\build\intermediates\merged_manifest\release\AndroidManifest.xml:41:13-33
+80        <meta-data
+80-->[:unityLibrary] C:\Users\Mavel\AR Project V6\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\build\intermediates\merged_manifest\release\AndroidManifest.xml:42:9-44:37
+81            android:name="unity.allow-resizable-window"
+81-->[:unityLibrary] C:\Users\Mavel\AR Project V6\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\build\intermediates\merged_manifest\release\AndroidManifest.xml:43:13-56
+82            android:value="False" />
+82-->[:unityLibrary] C:\Users\Mavel\AR Project V6\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\build\intermediates\merged_manifest\release\AndroidManifest.xml:44:13-34
+83        <meta-data
+83-->[:unityLibrary] C:\Users\Mavel\AR Project V6\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\build\intermediates\merged_manifest\release\AndroidManifest.xml:45:9-47:50
+84            android:name="notch.config"
+84-->[:unityLibrary] C:\Users\Mavel\AR Project V6\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\build\intermediates\merged_manifest\release\AndroidManifest.xml:46:13-40
+85            android:value="portrait|landscape" />
+85-->[:unityLibrary] C:\Users\Mavel\AR Project V6\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\build\intermediates\merged_manifest\release\AndroidManifest.xml:47:13-47
+86        <meta-data
+86-->[:unityLibrary] C:\Users\Mavel\AR Project V6\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\build\intermediates\merged_manifest\release\AndroidManifest.xml:48:9-50:36
+87            android:name="unity.auto-report-fully-drawn"
+87-->[:unityLibrary] C:\Users\Mavel\AR Project V6\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\build\intermediates\merged_manifest\release\AndroidManifest.xml:49:13-57
+88            android:value="true" />
+88-->[:unityLibrary] C:\Users\Mavel\AR Project V6\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\build\intermediates\merged_manifest\release\AndroidManifest.xml:50:13-33
+89
+90        <activity
+90-->[:unityLibrary] C:\Users\Mavel\AR Project V6\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\build\intermediates\merged_manifest\release\AndroidManifest.xml:52:9-75:20
+91            android:name="com.unity3d.player.UnityPlayerActivity"
+91-->[:unityLibrary] C:\Users\Mavel\AR Project V6\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\build\intermediates\merged_manifest\release\AndroidManifest.xml:53:13-66
+92            android:configChanges="mcc|mnc|locale|touchscreen|keyboard|keyboardHidden|navigation|orientation|screenLayout|uiMode|screenSize|smallestScreenSize|fontScale|layoutDirection|density"
+92-->[:unityLibrary] C:\Users\Mavel\AR Project V6\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\build\intermediates\merged_manifest\release\AndroidManifest.xml:54:13-194
+93            android:exported="true"
+93-->[:unityLibrary] C:\Users\Mavel\AR Project V6\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\build\intermediates\merged_manifest\release\AndroidManifest.xml:55:13-36
+94            android:hardwareAccelerated="false"
+94-->[:unityLibrary] C:\Users\Mavel\AR Project V6\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\build\intermediates\merged_manifest\release\AndroidManifest.xml:56:13-48
+95            android:launchMode="singleTask"
+95-->[:unityLibrary] C:\Users\Mavel\AR Project V6\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\build\intermediates\merged_manifest\release\AndroidManifest.xml:57:13-44
+96            android:resizeableActivity="false"
+96-->[:unityLibrary] C:\Users\Mavel\AR Project V6\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\build\intermediates\merged_manifest\release\AndroidManifest.xml:58:13-47
+97            android:screenOrientation="fullUser"
+97-->[:unityLibrary] C:\Users\Mavel\AR Project V6\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\build\intermediates\merged_manifest\release\AndroidManifest.xml:59:13-49
+98            android:theme="@style/UnityThemeSelector" >
+98-->[:unityLibrary] C:\Users\Mavel\AR Project V6\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\build\intermediates\merged_manifest\release\AndroidManifest.xml:60:13-54
+99            <intent-filter>
+99-->[:unityLibrary] C:\Users\Mavel\AR Project V6\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\build\intermediates\merged_manifest\release\AndroidManifest.xml:61:13-67:29
+100                <category android:name="android.intent.category.LAUNCHER" />
+100-->[:unityLibrary] C:\Users\Mavel\AR Project V6\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\build\intermediates\merged_manifest\release\AndroidManifest.xml:62:17-77
+100-->[:unityLibrary] C:\Users\Mavel\AR Project V6\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\build\intermediates\merged_manifest\release\AndroidManifest.xml:62:27-74
+101
+102                <action android:name="android.intent.action.MAIN" />
+102-->[:unityLibrary] C:\Users\Mavel\AR Project V6\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\build\intermediates\merged_manifest\release\AndroidManifest.xml:64:17-69
+102-->[:unityLibrary] C:\Users\Mavel\AR Project V6\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\build\intermediates\merged_manifest\release\AndroidManifest.xml:64:25-66
+103
+104                <category android:name="com.oculus.intent.category.VR" />
+104-->[:unityLibrary] C:\Users\Mavel\AR Project V6\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\build\intermediates\merged_manifest\release\AndroidManifest.xml:66:17-74
+104-->[:unityLibrary] C:\Users\Mavel\AR Project V6\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\build\intermediates\merged_manifest\release\AndroidManifest.xml:66:27-71
+105            </intent-filter>
+106
+107            <meta-data
+107-->[:unityLibrary] C:\Users\Mavel\AR Project V6\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\build\intermediates\merged_manifest\release\AndroidManifest.xml:69:13-71:40
+108                android:name="unityplayer.UnityActivity"
+108-->[:unityLibrary] C:\Users\Mavel\AR Project V6\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\build\intermediates\merged_manifest\release\AndroidManifest.xml:70:17-57
+109                android:value="true" />
+109-->[:unityLibrary] C:\Users\Mavel\AR Project V6\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\build\intermediates\merged_manifest\release\AndroidManifest.xml:71:17-37
+110            <meta-data
+110-->[:unityLibrary] C:\Users\Mavel\AR Project V6\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\build\intermediates\merged_manifest\release\AndroidManifest.xml:72:13-74:40
+111                android:name="notch_support"
+111-->[:unityLibrary] C:\Users\Mavel\AR Project V6\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\build\intermediates\merged_manifest\release\AndroidManifest.xml:73:17-45
+112                android:value="true" />
+112-->[:unityLibrary] C:\Users\Mavel\AR Project V6\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\build\intermediates\merged_manifest\release\AndroidManifest.xml:74:17-37
+113            <meta-data
+113-->[:unityLibrary:xrmanifest.androidlib] C:\Users\Mavel\AR Project V6\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\xrmanifest.androidlib\build\intermediates\merged_manifest\release\AndroidManifest.xml:16:13-18:40
+114                android:name="com.oculus.vr.focusaware"
+114-->[:unityLibrary:xrmanifest.androidlib] C:\Users\Mavel\AR Project V6\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\xrmanifest.androidlib\build\intermediates\merged_manifest\release\AndroidManifest.xml:17:17-56
+115                android:value="true" />
+115-->[:unityLibrary:xrmanifest.androidlib] C:\Users\Mavel\AR Project V6\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\xrmanifest.androidlib\build\intermediates\merged_manifest\release\AndroidManifest.xml:18:17-37
+116        </activity>
+117
+118        <meta-data
+118-->[:unityLibrary] C:\Users\Mavel\AR Project V6\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\build\intermediates\merged_manifest\release\AndroidManifest.xml:77:9-79:36
+119            android:name="unityplayer.SkipPermissionsDialog"
+119-->[:unityLibrary] C:\Users\Mavel\AR Project V6\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\build\intermediates\merged_manifest\release\AndroidManifest.xml:78:13-61
+120            android:value="true" />
+120-->[:unityLibrary] C:\Users\Mavel\AR Project V6\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\build\intermediates\merged_manifest\release\AndroidManifest.xml:79:13-33
+121        <meta-data
+121-->[:unityLibrary] C:\Users\Mavel\AR Project V6\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\build\intermediates\merged_manifest\release\AndroidManifest.xml:80:9-82:40
+122            android:name="com.google.ar.core"
+122-->[:unityLibrary] C:\Users\Mavel\AR Project V6\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\build\intermediates\merged_manifest\release\AndroidManifest.xml:81:13-46
+123            android:value="required" /> <!-- The minimal version code of ARCore APK required for an app using this SDK. -->
+123-->[:unityLibrary] C:\Users\Mavel\AR Project V6\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\build\intermediates\merged_manifest\release\AndroidManifest.xml:82:13-37
+124        <meta-data
+124-->[:arcore_client:] C:\Users\Mavel\.gradle\caches\transforms-3\ece6358c3c3b544f3d6f3cc51ffa918c\transformed\arcore_client\AndroidManifest.xml:36:9-38:41
+125            android:name="com.google.ar.core.min_apk_version"
+125-->[:arcore_client:] C:\Users\Mavel\.gradle\caches\transforms-3\ece6358c3c3b544f3d6f3cc51ffa918c\transformed\arcore_client\AndroidManifest.xml:37:13-62
+126            android:value="220920000" /> <!-- This activity is critical for installing ARCore when it is not already present. -->
+126-->[:arcore_client:] C:\Users\Mavel\.gradle\caches\transforms-3\ece6358c3c3b544f3d6f3cc51ffa918c\transformed\arcore_client\AndroidManifest.xml:38:13-38
+127        <activity
+127-->[:arcore_client:] C:\Users\Mavel\.gradle\caches\transforms-3\ece6358c3c3b544f3d6f3cc51ffa918c\transformed\arcore_client\AndroidManifest.xml:40:9-46:80
+128            android:name="com.google.ar.core.InstallActivity"
+128-->[:arcore_client:] C:\Users\Mavel\.gradle\caches\transforms-3\ece6358c3c3b544f3d6f3cc51ffa918c\transformed\arcore_client\AndroidManifest.xml:41:13-62
+129            android:configChanges="keyboardHidden|orientation|screenSize"
+129-->[:arcore_client:] C:\Users\Mavel\.gradle\caches\transforms-3\ece6358c3c3b544f3d6f3cc51ffa918c\transformed\arcore_client\AndroidManifest.xml:42:13-74
+130            android:excludeFromRecents="true"
+130-->[:arcore_client:] C:\Users\Mavel\.gradle\caches\transforms-3\ece6358c3c3b544f3d6f3cc51ffa918c\transformed\arcore_client\AndroidManifest.xml:43:13-46
+131            android:exported="false"
+131-->[:arcore_client:] C:\Users\Mavel\.gradle\caches\transforms-3\ece6358c3c3b544f3d6f3cc51ffa918c\transformed\arcore_client\AndroidManifest.xml:44:13-37
+132            android:launchMode="singleTop"
+132-->[:arcore_client:] C:\Users\Mavel\.gradle\caches\transforms-3\ece6358c3c3b544f3d6f3cc51ffa918c\transformed\arcore_client\AndroidManifest.xml:45:13-43
+133            android:theme="@android:style/Theme.Material.Light.Dialog.Alert" />
+133-->[:arcore_client:] C:\Users\Mavel\.gradle\caches\transforms-3\ece6358c3c3b544f3d6f3cc51ffa918c\transformed\arcore_client\AndroidManifest.xml:46:13-77
+134
+135        <meta-data
+135-->[:unityLibrary:xrmanifest.androidlib] C:\Users\Mavel\AR Project V6\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\xrmanifest.androidlib\build\intermediates\merged_manifest\release\AndroidManifest.xml:21:9-23:52
+136            android:name="com.oculus.supportedDevices"
+136-->[:unityLibrary:xrmanifest.androidlib] C:\Users\Mavel\AR Project V6\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\xrmanifest.androidlib\build\intermediates\merged_manifest\release\AndroidManifest.xml:22:13-55
+137            android:value="quest|quest2|cambria" />
+137-->[:unityLibrary:xrmanifest.androidlib] C:\Users\Mavel\AR Project V6\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\xrmanifest.androidlib\build\intermediates\merged_manifest\release\AndroidManifest.xml:23:13-49
+138    </application>
+139
+140</manifest>
