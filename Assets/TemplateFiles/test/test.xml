@@ -1,0 +1,125 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Landkarte xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+	<Markers>
+		<!--one or many-->
+		<Marker>
+			<Picturename>ardventure</Picturename>
+			<Info>
+				<InformationTitle>Das ARdventure</InformationTitle>
+				<AdditionalInfo>Eine AR-Anwendung in Unity</AdditionalInfo>
+				<InformationText>Wem Schnitzeljagden zu langweilig sind, kann alternativ mit dem ARdventure einen neuen Twist des altbekannten Konzepts erleben: Hier sind die Hinweise digital in der App gegeben und man muss die damit verbundenen Bilder in der echten Welt finden. Hat man das geschafft, muss direkt eine Frage gelöst werden, damit die nächste Station freigeschaltet werden kann. Wird die momentanige Schnitzeljagd einmal zu langweilig, kann man einfach und unkompliziert neue Stationen und Aufgaben hinzufügen.</InformationText>
+			</Info>
+		</Marker>
+		<Marker>
+			<Picturename>bci</Picturename>
+			<Info>
+				<InformationTitle>Das Brain-Computer-Interface</InformationTitle>
+				<AdditionalInfo>Ein Unity-basiertes Projekt</AdditionalInfo>
+				<InformationText>Sie wollen gerne Tetris spielen, aber die Hände können einfach nicht mehr? Kein Problem, denn mit der "Brain Computer Interface" lässt sich Tetris auch komplett freihändig spielen - stattdessen spielt man direkt mit dem Gehirn. Mittels einer Elektroden-Kappe werden die Gehirnströme gemessen und ausgewertet. Hat man dem System nach einer kurzen Kalibrierung vermittelt, welche Gehirnströme mit welcher Aktion zusammenhängen, so kann man direkt loslegen und kraftsparend Blockreihen verschwinden lassen. Die Blöcke lassen sich bewegen und drehen und landen (hoffentlich) genau da, wo man es sich gedacht hat.</InformationText>
+			</Info>
+		</Marker>
+		<Marker>
+			<Picturename>escaperoom</Picturename>
+			<Info>
+				<InformationTitle>Der AR-Escaperoom</InformationTitle>
+				<AdditionalInfo>Eine AR-Anwendung in Unity</AdditionalInfo>
+				<InformationText>Das Konzept von Escape Rooms hat in den letzen Jahren massiv an Popularität gewonnen. Bei diesem Projekt wurde eine AR-Anwendung geschrieben, die dabei helfen soll, die Erfahrung eines Escape Rooms noch weiter zu intensivieren: Werden mit dem Smartphone vorher bestimmte Objekte im Raum gescannt, so aktiviert das Programm z.B. ein Türschloss oder einen Ventilator, damit man zum nächten Rätsel übergehen kann.</InformationText>
+			</Info>
+		</Marker>
+		<Marker>
+			<Picturename>höhenangst</Picturename>
+			<Info>
+				<InformationTitle>Die Höhenangst-Simulation</InformationTitle>
+				<AdditionalInfo>Eine VR-Anwendung in Unity</AdditionalInfo>
+				<InformationText>Die "Fear of Heights"-Anwendung setzt genau dort an, wo der Name es vermuten lässt: Mittels VR soll die Angst vor der Höhe behandelt und hoffentlich vermindert werden. Dazu muss sich der Anwender gleich zwei Aufgaben stellen: Zunächst muss man es schaffen, in einem gläsernen Aufzug auf die gewünschte Höhe zu fahren, und einmal dort angekommen muss man auf ein schmales Brett treten, um einen Knopf viele Meter über dem (digitalen) Abgrund zu drücken. Ist das vollbracht, muss nur noch der Rückwegüber das Brett geschafft werden.</InformationText>
+			</Info>
+		</Marker>
+		<Marker>
+			<Picturename>hshlIcaros</Picturename>
+			<Info>
+				<InformationTitle>Die HSHL im Icaros</InformationTitle>
+				<AdditionalInfo>Eine VR-Anwendung in Unity mit dem Icaros</AdditionalInfo>
+				<InformationText>Für alle diejenigen, die sich gerne einmal wir ein Vogel fühlen wollen, ist der Icaros da. Und für alle diejenigen, die sich die Hochschule in Hamm einmal aus der Vogelperspektive angucken wollen, ist die Icaros-Karte der HSHL perfekt: Der digitale Campus ist in VR nachgebaut und kann komplett beflogen werden.</InformationText>
+			</Info>
+		</Marker>
+		<Marker>
+			<Picturename>livingBanner</Picturename>
+			<Info>
+				<InformationTitle>Das Living Banner</InformationTitle>
+				<AdditionalInfo>Eine AR-Anwendung in Unity</AdditionalInfo>
+				<InformationText>Wer schon einmal im M.A.V.E.L. war, wird sicherlich auch das Living Banner bereits einmal gesehen haben. Scannt man dieses Bild, so erwacht es zum Leben und erzählt einem freundlich, um was es sich denn beim M.A.V.E.L.-Labor überhaupt handelt. Scannt man die Rückseite, so kann man gewollt (digital) Zerstörung walten lassen: Die Hexagons lassen sich antippen und fallen heraus, um weitere Infos über das Labor und die Hochschule preiszugeben.</InformationText>
+			</Info>
+		</Marker>
+		<Marker>
+			<Picturename>mausdroide</Picturename>
+			<Info>
+				<InformationTitle>Der W-LAN-Mausdroide</InformationTitle>
+				<AdditionalInfo>Ein Microcontroller-Projekt</AdditionalInfo>
+				<InformationText>Oft sind es nur wenige Meter, die es braucht, um einen großen Unterschied in der Qualität des W-LANs zu finden. Manchmal reicht schon ein Objekt zwischen Router und Smartphone, damit die Empfangsanzeige an Balken einbußt. Unser Mausdroide wurde extra für dieses Problem entwickelt: Er erkennt die Stärke des W-LAN-Signals und sucht selbstständig nach dem [stärksten? schwächsten?] Signaloutput, um ein Bild der Signalverteilung zu liefern.</InformationText>
+			</Info>
+		</Marker>
+		<Marker>
+			<Picturename>medicalAR</Picturename>
+			<Info>
+				<InformationTitle>Die Medizin-AR-Anwendung</InformationTitle>
+				<AdditionalInfo>Eine AR-Anwendung in Unity</AdditionalInfo>
+				<InformationText>Die hauseigene HoloLens-Anwendung wurde für den Einsatz im OP entwickelt. Sie ermöglicht es, vorher ausgewählte Bilder von einem Laptop in den Raum zu projizieren und dort zu verändern - ohne die Hände nach Anwendung neu desinfizieren zu müssen. Und sollten die Hände gerade ebenfalls beschäftigt sein, kann ein Bild auch per Sprachbefehl geöffnet und verändert werden - für eine reibungslose und möglichst unterbrechungsfreie Operation.</InformationText>
+			</Info>
+		</Marker>
+		<Marker>
+			<Picturename>physikbuch</Picturename>
+			<Info>
+				<InformationTitle>Das AR-Physikbuch</InformationTitle>
+				<AdditionalInfo>Eine AR-Anwendung in Unity</AdditionalInfo>
+				<InformationText>Wenn der Physikuntericht zu langweilig ist, kann die AR-Anwendung für das Physikbuch Abhilfe schaffen: Hier können Themenbereiche der Physik anschaulich dargestellt und praktisch erlebt werden. Einfach den zum Thema beiliegenden QR-Code scannen, und aus der grauen Theorie wird ein interaktives virtuelles Experiment, mithilfe dessen die Lektion direkt einen parktischen Bezug bekommt.</InformationText>
+			</Info>
+		</Marker>
+		<Marker>
+			<Picturename>physiotrack</Picturename>
+			<Info>
+				<InformationTitle>Das PhysioTrack-Spiel</InformationTitle>
+				<AdditionalInfo>Eine VR-Anwendung in Unity</AdditionalInfo>
+				<InformationText>In der heutigen Zeit wird es immer wichtiger, Kinder zur Bewegung zu ambitionieren. Die PhysioTrack-Anwendung vermittelt spielerisch diesen Bedarf der Bewegung, indem Kinder mit zwei Spielen in VR dazu angeregt werden, sich zu strecken und den gesamten Bewegungsradius des Körpers zu nutzen. Dazu werden im ersten Spiel virtuelle Äpfel von Bäumen gepflückt und in Körbe gelegt. Aber aufgepasst: Werden die Äpfel zu früh und zu weit oben losgelassen, gehen sie kaputt. So sind die Kinder spielerisch dazu angeregt, sich zu strecken und zu beugen. Im zweiten Spiel wird das gepflückte Obst zu Mus zerstampft. Hierzu wird mittels Sensoren an den Beinen die Bewegung erfasst und ausgewertet, und die Nutzer müssen die Beine weit anwinkeln, um auch wirklich gut zerstampfen zu können.</InformationText>
+			</Info>
+		</Marker>
+		<Marker>
+			<Picturename>schaufenster</Picturename>
+			<Info>
+				<InformationTitle>Das AR-Schaufenster</InformationTitle>
+				<AdditionalInfo>Eine AR-Anwendung in Unity</AdditionalInfo>
+				<InformationText>Der Begriff "Window Shopping" mag den meisten wohl bekannt sein. Wie wäre es aber, wenn man den begriff wörtlich nehmen könnte? Mit dieser AR-Anwendung ist das möglich: Geht man am Schaufenster vorbei und guckt in die Kamera, so wird man auf dem Bildschirm nebenan direkt selbst zum Model für die ausgestellten Modestücke. Die Anwendung erkennt den Körper via Body-Tracking und zieht dem digitalen Avatar die gewünschte Kleidung an - ganz ohne echten Kleiderwechsel.</InformationText>
+			</Info>
+		</Marker>
+		<Marker>
+			<Picturename>trainYourBrain</Picturename>
+			<Info>
+				<InformationTitle>Das Train-Your-Brain</InformationTitle>
+				<AdditionalInfo>Eine VR-Anwendung in Unity</AdditionalInfo>
+				<InformationText>Das "Train Your Brain" ist eine VR-Anwendung in Unity. Es wurde mit der Idee entwickelt, in einer virtuellen Umgebung die Konzentration des Nutzers zu trainieren. Hierzu muss an einer digitalen Klatschwand in zwei Leveln die korrekte Nummer gedrückt werden. Während im ersten Level noch die korrekte Nummer aufleuchtet, muss in Level 2 zunächst eine kurze Rechenaufgabe gelöst werden, um die richtige Antwort zu finden. Den Highscore knackt, wer am schnellsten innerhalb von [Zeit] die meisten richtigen Zahlen drückt. Aber aufgepasst und nicht ablenken lassen: Die Umgebung verändert sich und tut alles, um den Spieler aus dem Konzept zu bringen!</InformationText>
+			</Info>
+		</Marker>
+		<Marker>
+			<Picturename>ventisIcaros</Picturename>
+			<Info>
+				<InformationTitle>Die immersive Icaros-Erfahrung</InformationTitle>
+				<AdditionalInfo>Ein Microcontroller-Projekt</AdditionalInfo>
+				<InformationText>Kennen Sie den Icaros bereits? Hier lässt es sich virtuell nachempfinden, wie sich ein Vogel im Flug fühlen muss. Wem die VR-Brille und das Icaros-Gestell selbst allerdings noch nicht immersiv genug ist, der kann zusätzlich dazu noch mit drei Ventilatoren den Wind ins Gesicht wehen spühren - und das angepasst auf den eigenen Flug. Wer nach rechts fliegt, bekommt Wind von rechts, wer nach links fliegt, bekommt ihn von links - und wenn man sich in die Tiefe stürzt, weht es einen kräftig von vorne entgegen.</InformationText>
+				<WebsiteURL>https://hshl.de/</WebsiteURL>
+			</Info>
+		</Marker>
+		<Marker>
+			<Picturename>vrSpy</Picturename>
+			<Info>
+				<InformationTitle>Die Multiplayer-Umgebung</InformationTitle>
+				<AdditionalInfo>Eine Vr-Anwendung in Unity</AdditionalInfo>
+				<InformationText>Die (Medizin-)Multiplayer-Anwendung für VR und Desktop bietet die Möglichkeit, mit verschiedenen Medien in einer Gruppe gemeinsam virtuelle Objekte zu erkunden und mit ihnen zu interagieren. Wer nicht gerne eine VR-Brille trägt, kann alternativ genauso gut am Desktop sitzend teilnehmen. Und wer gerade unterwegs ist und keinen Zugriff auf einen Desktop oder ein VR-Headset hat, dem ist es ebenfalls möglich, via Smartphone beizutreten.</InformationText>
+				<WebsiteURL>https://www.hshl.de/</WebsiteURL>
+				<VideoFileLink>https://www.youtube.com/watch?v=dQw4w9WgXcQ</VideoFileLink>
+			</Info>
+		</Marker>
+	</Markers>
+	<Name>test</Name>
+	<Version>1.1</Version>
+	<MinVersionARLandkarte>0.1.0</MinVersionARLandkarte>
+	<CustomBackground>string</CustomBackground>
+</Landkarte>

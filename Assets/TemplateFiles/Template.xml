@@ -1,0 +1,19 @@
+<?xml version="1.0"?>
+<Landkarte xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <Markers>
+    <Marker>
+      <Picturename>Name</Picturename>
+      <Info>
+        <InformationTitle>string</InformationTitle>
+        <AdditionalInfo>string</AdditionalInfo>
+        <InformationText>string</InformationText>
+        <VideoFileLink>string</VideoFileLink>
+        <WebsiteURL>string</WebsiteURL>
+      </Info>
+    </Marker>
+  </Markers>
+  <Name>nicht vergeben</Name>
+  <Version>0</Version>
+  <MinVersionARLandkarte>0.0.0</MinVersionARLandkarte>
+  <CustomBackground>string</CustomBackground>
+</Landkarte>
