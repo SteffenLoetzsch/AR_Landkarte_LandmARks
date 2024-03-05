@@ -340,6 +340,7 @@
 "Assets/Scripts/Management Global/Parsing/XmlParser.cs"
 "Assets/Scripts/Management Global/SwitchScene.cs"
 "Assets/Scripts/Management InfoScene/InfoManager.cs"
+"Assets/Scripts/Management Prefabs/FaceCamera.cs"
 "Assets/Scripts/Management StartScene/LoadDataFiles.cs"
 "Assets/TextMesh Pro/Examples & Extras/Scripts/Benchmark01.cs"
 "Assets/TextMesh Pro/Examples & Extras/Scripts/Benchmark01_UGUI.cs"

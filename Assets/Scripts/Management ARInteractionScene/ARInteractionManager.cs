@@ -19,13 +19,17 @@ public class ARInteractionManager : MonoBehaviour
     private GameStorage storage;
 
     [SerializeField] GameObject trackerObjectPrefab;
+    [SerializeField] GameObject UIPrefab;
+    [SerializeField] GameObject content;
     private readonly Dictionary<string, GameObject> _instantiatedPrefabs = new Dictionary<string, GameObject>();
     private List<FileInfo> imagesList;
+    private Camera cam;
 
     private void Awake()
     {
         path = GameObject.FindGameObjectWithTag("Path").GetComponent<GamePath>();
         storage = GameObject.FindGameObjectWithTag("Storage").GetComponent<GameStorage>();
+        cam = Camera.main;
     }
 
     private void Start()
@@ -85,13 +89,15 @@ public class ARInteractionManager : MonoBehaviour
         {
             if (!_instantiatedPrefabs.ContainsKey(trackedImage.referenceImage.name))
             {
-                GameObject newPrefab = Instantiate(trackerObjectPrefab, new Vector3(0,0,0.5f), new Quaternion());
+                GameObject newPrefab = Instantiate(trackerObjectPrefab, trackedImage.transform);
+                GameObject newUIPrefab = Instantiate(UIPrefab, content.transform);
     
                 foreach (var i in storage.markers)
                 {
                     if (i.Picturename == trackedImage.referenceImage.name)
                     {
                         newPrefab.transform.Find("ImageTextCanvas").Find("ImageText").GetComponent<TextMeshProUGUI>().text = i.Info.InformationTitle;
+                        newUIPrefab.transform.Find("ImageText").GetComponent<TextMeshProUGUI>().text = i.Info.InformationTitle;
                         break;
                     }
                 }
@@ -111,8 +117,8 @@ public class ARInteractionManager : MonoBehaviour
             _instantiatedPrefabs[trackedImage.referenceImage.name].SetActive(trackedImage.trackingState == TrackingState.Tracking);
             if (_instantiatedPrefabs[trackedImage.referenceImage.name].activeInHierarchy)
             {
-                Debug.Log(trackedImage.transform.position);
-            }   
+                Debug.Log(cam.WorldToScreenPoint(trackedImage.transform.position));                
+            }
         }
 
         foreach (var trackedImage in eventArgs.removed)

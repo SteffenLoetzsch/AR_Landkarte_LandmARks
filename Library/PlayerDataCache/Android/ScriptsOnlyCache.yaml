@@ -188,6 +188,9 @@ ScriptsOnlyBuild:
   - assembly: Assembly-CSharp
     fullTypeName: SwitchScene
     methodName: SwitchToScene
+  - assembly: Assembly-CSharp
+    fullTypeName: SwitchScene
+    methodName: SwitchToScene
   sceneClasses:
     Assets/Scenes/ARInteractionScene.unity:
     - Class: 1
@@ -223,6 +226,8 @@ ScriptsOnlyBuild:
     - Class: 114
       Script: {instanceID: 17590}
     - Class: 114
+      Script: {instanceID: 17818}
+    - Class: 114
       Script: {instanceID: 18304}
     - Class: 114
       Script: {instanceID: 18610}
@@ -242,6 +247,8 @@ ScriptsOnlyBuild:
       Script: {instanceID: 20016}
     - Class: 114
       Script: {instanceID: 20226}
+    - Class: 114
+      Script: {instanceID: 20274}
     - Class: 114
       Script: {instanceID: 20276}
     - Class: 114
@@ -1889,7 +1896,7 @@ ScriptsOnlyBuild:
     className: Vector2MaterialPropertyAffordanceReceiver
   - hash:
       serializedVersion: 2
-      Hash: 85b9158eaf2741ebcc62f73388971afd
+      Hash: 3e3c6636568f58206d1269c656d8fc92
     assemblyName: Assembly-CSharp
     namespaceName: 
     className: ARInteractionManager
@@ -2883,6 +2890,12 @@ ScriptsOnlyBuild:
     assemblyName: Unity.VisualScripting.Core
     namespaceName: Unity.VisualScripting
     className: UnityOnSliderValueChangedMessageListener
+  - hash:
+      serializedVersion: 2
+      Hash: 116f8f76fe10628d040c7ae34219665f
+    assemblyName: Assembly-CSharp
+    namespaceName: 
+    className: FaceCamera
   platform: 13
   scenePathNames:
   - Assets/Scenes/StartScene.unity
