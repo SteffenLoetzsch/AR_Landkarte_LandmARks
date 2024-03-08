@@ -1,9 +1,9 @@
 {
-    "m_SelectedDeviceId": "239c0c3a22017ece",
+    "m_SelectedDeviceId": "ce11182bb94d7801057e",
     "m_SelectedProcess": {
-        "deviceId": "239c0c3a22017ece",
+        "deviceId": "ce11182bb94d7801057e",
         "name": "com.DefaultCompany.LandmARksDieARLandkarte",
-        "processId": 32079,
+        "processId": 10892,
         "exited": false
     },
     "m_SelectedPriority": 0,
@@ -126,6 +126,12 @@
             "deviceId": "ce11182bb94d7801057e",
             "name": "com.DefaultCompany.LandmARksDieARLandkarte",
             "processId": 9210,
+            "exited": false
+        },
+        {
+            "deviceId": "ce11182bb94d7801057e",
+            "name": "com.DefaultCompany.LandmARksDieARLandkarte",
+            "processId": 10892,
             "exited": false
         }
     ],
