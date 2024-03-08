@@ -8,10 +8,13 @@ using UnityEngine.UI;
 
 public class LoadDataFiles : MonoBehaviour
 {
-    [SerializeField] private GameObject content;
+    [SerializeField] private GameObject contentVertical;
+    [SerializeField] private GameObject contentHorizontal;
     [SerializeField] private GameObject buttonPrefab;
-    [SerializeField] private TextMeshProUGUI chosenTextMessage;
-    [SerializeField] private Button sceneLoaderButton;
+    [SerializeField] private TextMeshProUGUI chosenTextMessageVertical;
+    [SerializeField] private TextMeshProUGUI chosenTextMessageHorizontal;
+    [SerializeField] private Button sceneLoaderButtonVertical;
+    [SerializeField] private Button sceneLoaderButtonHorizontal;
 
     private GamePath path;
     private GameStorage storage;
@@ -30,17 +33,28 @@ public class LoadDataFiles : MonoBehaviour
 
         foreach(string name in listOfNames)
         {
-            GameObject newButton;
-            newButton = Instantiate(buttonPrefab, content.transform, false);
-            newButton.name = "newButton" + name;
-            newButton.transform.GetChild(0).GetComponent<TextMeshProUGUI>().text = name;
+            GameObject newButtonVertical;
+            GameObject newButtonHorizontal;
+            newButtonVertical = Instantiate(buttonPrefab, contentVertical.transform, false);
+            newButtonVertical.name = "newButton" + name;
+            newButtonVertical.transform.GetChild(0).GetComponent<TextMeshProUGUI>().text = name;
 
-            newButton.GetComponent<Button>().onClick.AddListener(() => {
+            newButtonHorizontal = Instantiate(newButtonVertical, contentHorizontal.transform, false);
+
+            newButtonVertical.GetComponent<Button>().onClick.AddListener(() => {
                 DirectoryInfo dir = path.ChooseDirectory(name);
 
-                chosenTextMessage.text = $"Ausgewählte Karte: \n" + name;
+                chosenTextMessageVertical.text = $"Ausgewählte Karte: \n" + name;
 
-                sceneLoaderButton.interactable = true;
+                sceneLoaderButtonVertical.interactable = true;
+            });
+
+            newButtonHorizontal.GetComponent<Button>().onClick.AddListener(() => {
+                DirectoryInfo dir = path.ChooseDirectory(name);
+
+                chosenTextMessageHorizontal.text = $"Ausgewählte Karte: \n" + name;
+
+                sceneLoaderButtonHorizontal.interactable = true;
             });
         }
 

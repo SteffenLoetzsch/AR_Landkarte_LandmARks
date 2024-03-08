@@ -20,16 +20,16 @@ public class ARInteractionManager : MonoBehaviour
 
     [SerializeField] GameObject trackerObjectPrefab;
     [SerializeField] GameObject UIPrefab;
-    [SerializeField] GameObject content;
-    private readonly Dictionary<string, GameObject> _instantiatedPrefabs = new Dictionary<string, GameObject>();
+    [SerializeField] GameObject contentVertical;
+    [SerializeField] GameObject contentHorizontal;
+    private readonly Dictionary<string, GameObject> _instantiatedPrefabsVertical = new Dictionary<string, GameObject>();
+    private readonly Dictionary<string, GameObject> _instantiatedPrefabsHorizontal = new Dictionary<string, GameObject>();
     private List<FileInfo> imagesList;
-    private Camera cam;
 
     private void Awake()
     {
         path = GameObject.FindGameObjectWithTag("Path").GetComponent<GamePath>();
         storage = GameObject.FindGameObjectWithTag("Storage").GetComponent<GameStorage>();
-        cam = Camera.main;
     }
 
     private void Start()
@@ -43,7 +43,6 @@ public class ARInteractionManager : MonoBehaviour
         
         manager.referenceLibrary = storage.library;
         manager.enabled = true;
-        manager.trackedImagePrefab = trackerObjectPrefab;
 
         imagesList = path.ImageList();
 
@@ -87,17 +86,20 @@ public class ARInteractionManager : MonoBehaviour
     {
         foreach (var trackedImage in eventArgs.added)
         {
-            if (!_instantiatedPrefabs.ContainsKey(trackedImage.referenceImage.name))
+            if (!_instantiatedPrefabsVertical.ContainsKey(trackedImage.referenceImage.name))
             {
-                GameObject newPrefab = Instantiate(trackerObjectPrefab, trackedImage.transform);
-                GameObject newUIPrefab = Instantiate(UIPrefab, content.transform);
-    
+                //GameObject newPrefab = Instantiate(trackerObjectPrefab, trackedImage.transform);
+                GameObject newUIPrefabVertical = Instantiate(UIPrefab, contentVertical.transform);
+                GameObject newUIPrefabHorizontal = Instantiate(UIPrefab, contentHorizontal.transform);
+
+
                 foreach (var i in storage.markers)
                 {
                     if (i.Picturename == trackedImage.referenceImage.name)
                     {
-                        newPrefab.transform.Find("ImageTextCanvas").Find("ImageText").GetComponent<TextMeshProUGUI>().text = i.Info.InformationTitle;
-                        newUIPrefab.transform.Find("ImageText").GetComponent<TextMeshProUGUI>().text = i.Info.InformationTitle;
+                        //newPrefab.transform.Find("ImageTextCanvas").Find("ImageText").GetComponent<TextMeshProUGUI>().text = i.Info.InformationTitle;
+                        newUIPrefabVertical.transform.Find("ImageText").GetComponent<TextMeshProUGUI>().text = i.Info.InformationTitle;
+                        newUIPrefabHorizontal.transform.Find("ImageText").GetComponent<TextMeshProUGUI>().text = i.Info.InformationTitle;
                         break;
                     }
                 }
@@ -106,25 +108,39 @@ public class ARInteractionManager : MonoBehaviour
                 var imagefile = imagesList.Where(file => file.Name.Split(".")[0] == trackedImage.referenceImage.name);
                 storage.chosenImage = imagefile.FirstOrDefault();
                 storage.chosenMarker = storage.SetChosenMarker(imagefile.FirstOrDefault().Name.Split(".")[0]);
-                Debug.Log(storage.chosenMarker.Info.InformationTitle);
 
-                _instantiatedPrefabs.Add(trackedImage.referenceImage.name, newPrefab);
+                _instantiatedPrefabsVertical.Add(trackedImage.referenceImage.name, newUIPrefabVertical);
+                _instantiatedPrefabsVertical[trackedImage.referenceImage.name].transform.Find("ChooseImageButton").GetComponent<Button>().onClick.AddListener(() =>
+                {
+                    storage.ImageChosenName = trackedImage.referenceImage.name;
+                    var imagefile = imagesList.Where(file => file.Name.Split(".")[0] == trackedImage.referenceImage.name);
+                    storage.chosenImage = imagefile.FirstOrDefault();
+                    storage.chosenMarker = storage.SetChosenMarker(imagefile.FirstOrDefault().Name.Split(".")[0]);
+                    SceneManager.LoadScene("InfoScene");
+                });
+
+                _instantiatedPrefabsHorizontal.Add(trackedImage.referenceImage.name, newUIPrefabHorizontal);
+                _instantiatedPrefabsHorizontal[trackedImage.referenceImage.name].transform.Find("ChooseImageButton").GetComponent<Button>().onClick.AddListener(() =>
+                {
+                    storage.ImageChosenName = trackedImage.referenceImage.name;
+                    var imagefile = imagesList.Where(file => file.Name.Split(".")[0] == trackedImage.referenceImage.name);
+                    storage.chosenImage = imagefile.FirstOrDefault();
+                    storage.chosenMarker = storage.SetChosenMarker(imagefile.FirstOrDefault().Name.Split(".")[0]);
+                    SceneManager.LoadScene("InfoScene");
+                });
             }
         }
 
         foreach (var trackedImage in eventArgs.updated)
         { 
-            _instantiatedPrefabs[trackedImage.referenceImage.name].SetActive(trackedImage.trackingState == TrackingState.Tracking);
-            if (_instantiatedPrefabs[trackedImage.referenceImage.name].activeInHierarchy)
-            {
-                Debug.Log(cam.WorldToScreenPoint(trackedImage.transform.position));                
-            }
+            _instantiatedPrefabsVertical[trackedImage.referenceImage.name].SetActive(trackedImage.trackingState == TrackingState.Tracking);
+            _instantiatedPrefabsHorizontal[trackedImage.referenceImage.name].SetActive(trackedImage.trackingState == TrackingState.Tracking);
         }
 
         foreach (var trackedImage in eventArgs.removed)
         {
-            _instantiatedPrefabs.Remove(trackedImage.referenceImage.name);
-            Destroy(_instantiatedPrefabs[trackedImage.referenceImage.name]);
+            //_instantiatedPrefabs.Remove(trackedImage.referenceImage.name);
+            //Destroy(_instantiatedPrefabs[trackedImage.referenceImage.name]);
         }
     }
 }

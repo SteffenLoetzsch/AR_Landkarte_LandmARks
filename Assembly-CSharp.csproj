@@ -69,6 +69,7 @@
     <Compile Include="Assets\Scripts\Management Global\GameStorage.cs" />
     <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\VertexShakeB.cs" />
     <Compile Include="Assets\Scripts\Management InfoScene\InfoManager.cs" />
+    <Compile Include="Assets\Scripts\Management StartScene\ManageCanvasOrientation.cs" />
     <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\DropdownSample.cs" />
     <Compile Include="Assets\Scripts\Management Global\SwitchScene.cs" />
     <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\VertexColorCycler.cs" />

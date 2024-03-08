@@ -1178,9 +1178,7 @@
           },
           {
             "name": "CanvasGroup",
-            "scenes": [
-              "Assets/Scenes/ARInteractionScene.unity"
-            ],
+            "scenes": [],
             "dependencyType": 0,
             "icon": null
           },
